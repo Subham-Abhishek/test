@@ -3,6 +3,8 @@ name: Build Medical Vitals APK
 on:
   push:
     branches: [medical-vitals-apk]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 jobs:
